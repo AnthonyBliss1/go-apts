@@ -1,8 +1,8 @@
 ```
- ______     ______        ______     ______   ______   ______    
-/\  ___\   /\  __ \      /\  __ \   /\  == \ /\__  _\ /\  ___\   
-\ \ \__ \  \ \ \/\ \     \ \  __ \  \ \  _-/ \/_/\ \/ \ \___  \  
- \ \_____\  \ \_____\     \ \_\ \_\  \ \_\      \ \_\  \/\_____\ 
+ ______     ______        ______     ______   ______   ______
+/\  ___\   /\  __ \      /\  __ \   /\  == \ /\__  _\ /\  ___\
+\ \ \__ \  \ \ \/\ \     \ \  __ \  \ \  _-/ \/_/\ \/ \ \___  \
+ \ \_____\  \ \_____\     \ \_\ \_\  \ \_\      \ \_\  \/\_____\
   \/_____/   \/_____/      \/_/\/_/   \/_/       \/_/   \/_____/
 
 ```
@@ -32,6 +32,17 @@ This application only accepts Apartments.com listings but will eventually accept
 
 > [!IMPORTANT]
 > If you run into any permission errors, run with `sudo`
+
+### Try it out
+You can test an example from your browser [here.](apts.arb-home-station.com/apts?url=https://www.apartments.com/trio-apartments-pasadena-ca/xrbj4sp/)
+
+Or with a curl request:
+```bash
+curl -i "apts.arb-home-station.com/apts?url=https://www.apartments.com/trio-apartments-pasadena-ca/xrbj4sp/"
+```
+
+> [!NOTE]
+> You can replace the `url` query parameter with any apartments.com link to see the available units
 
 ### Usage
 
