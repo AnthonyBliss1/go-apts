@@ -34,7 +34,7 @@ This application only accepts Apartments.com listings but will eventually accept
 > If you run into any permission errors, run with `sudo`
 
 ### Try it out
-You can test an example from your browser [here.](apts.arb-home-station.com/apts?url=https://www.apartments.com/trio-apartments-pasadena-ca/xrbj4sp/)
+You can test an example from your browser [here.](http://apts.arb-home-station.com/apts?url=https://www.apartments.com/trio-apartments-pasadena-ca/xrbj4sp/)
 
 Or with a curl request:
 ```bash
